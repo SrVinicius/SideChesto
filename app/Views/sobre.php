@@ -1,3 +1,5 @@
+<?php $this->extend('layout') ?>
+<?php $this->section('content') ?>
 <div class="container">
     <h1 class="my-4">SideChest'o</h1>
     <ul class="nav nav-tabs">
@@ -30,3 +32,4 @@
         </div>
     </div>
 </div>
+<?php $this->endSection() ?> 
