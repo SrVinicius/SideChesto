@@ -11,26 +11,26 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">SideChest'o</a>
+        <a class="navbar-brand" href="/">SideChest'o</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Início</a>
+                    <a class="nav-link" href="/">Início</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Sobre</a>
+                    <a class="nav-link" href="sobre">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contato</a>
+                    <a class="nav-link" href="contato">Contato</a>
                 </li>
             </ul>
         </div>
     </nav>
     <?php $this->renderSection('content')?>
-    <footer class="bg-light py-3">
+    <footer class="bg-light py-3 fixed-bottom">
         <div class="container">
             <p class="text-center">Copyright © 2023 SideChest'o</p>
         </div>
