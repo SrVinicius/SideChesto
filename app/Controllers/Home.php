@@ -16,4 +16,8 @@ class Home extends BaseController
     {
         return view('contato');
     }
+    public function treinos()
+    {
+        return view('treinos');
+    }
 }

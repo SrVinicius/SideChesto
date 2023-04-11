@@ -29,7 +29,7 @@
         <div class="col-md-12">
             <h2>Fichas de treino</h2>
             <p> Tenha acesso a fichas de treino personalizadas e acompanhe sua evolução em cada exercício.</p>
-            <a class="btn btn-secondary" href="#" role="button">Saiba mais</a>
+            <a class="btn btn-secondary" href="treinos" role="button">Saiba mais</a>
         </div>
     </div>
 </section>
