@@ -33,6 +33,7 @@ $routes->get('/', 'Home::index');
 $routes->get('sobre', 'Home::sobre');
 $routes->get('contato', 'Home::contato');
 $routes->get('treinos', 'Home::treinos');
+$routes->get('pesos', 'Home::pesos');
 
 /*
  * --------------------------------------------------------------------

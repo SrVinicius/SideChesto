@@ -20,4 +20,8 @@ class Home extends BaseController
     {
         return view('treinos');
     }
+    public function pesos()
+    {
+        return view('pesos');
+    }
 }

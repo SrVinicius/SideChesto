@@ -1,0 +1,55 @@
+CRITICAL - 2023-04-12 00:18:34 --> Undefined variable $treinos
+in APPPATH\Views\treinos.php on line 18.
+ 1 APPPATH\Views\treinos.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $treinos', 'D:\\Xampp\\htdocs\\SideChestO\\app\\Views\\treinos.php', 18)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Xampp\\htdocs\\SideChestO\\app\\Views\\treinos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('treinos', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('treinos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->treinos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\SideChestO\\public\\index.php')
+CRITICAL - 2023-04-12 00:19:37 --> Cannot use object of type mysqli as array
+in APPPATH\Views\treinos.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('treinos', [], true)
+ 4 APPPATH\Controllers\Home.php(21): view('treinos')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->treinos()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\SideChestO\\public\\index.php')
+CRITICAL - 2023-04-12 00:19:38 --> Cannot use object of type mysqli as array
+in APPPATH\Views\treinos.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('treinos', [], true)
+ 4 APPPATH\Controllers\Home.php(21): view('treinos')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->treinos()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\SideChestO\\public\\index.php')
+CRITICAL - 2023-04-12 00:19:38 --> Cannot use object of type mysqli as array
+in APPPATH\Views\treinos.php on line 33.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('treinos', [], true)
+ 4 APPPATH\Controllers\Home.php(21): view('treinos')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->treinos()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\SideChestO\\public\\index.php')
+CRITICAL - 2023-04-12 00:23:28 --> Invalid file: "pesos.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pesos.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('pesos', [], true)
+ 3 APPPATH\Controllers\Home.php(25): view('pesos')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->pesos()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\SideChestO\\public\\index.php')

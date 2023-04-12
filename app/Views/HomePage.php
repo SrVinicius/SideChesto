@@ -17,7 +17,7 @@
         <div class="col-md-4">
             <h2>Perda de gordura</h2>
             <p>Acompanhe sua evolução na perda de gordura e saiba se está no caminho certo.</p>
-            <a class="btn btn-secondary" href="#" role="button">Saiba mais</a>
+            <a class="btn btn-secondary" href="pesos" role="button">Saiba mais</a>
         </div>
         <div class="col-md-4">
             <h2>Mudança de medidas</h2>
