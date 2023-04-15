@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>SideChest'o - Acompanhe sua evolução corporal</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link href="https://cdn.datatables.net/v/dt/jq-3.6.0/dt-1.13.4/datatables.css" rel="stylesheet"/>
 </head>
 
 <body>
@@ -35,6 +36,8 @@
             <p class="text-center">Copyright © 2023 SideChest'o</p>
         </div>
     </footer>
+ 
+    <script src="https://cdn.datatables.net/v/dt/jq-3.6.0/dt-1.13.4/datatables.js"></script>
 </body>
 
 </html>
