@@ -6,7 +6,7 @@ use CodeIgniter\Controller;
 Class Treinos extends Controller {
     
     public function getDados(){
-
+        // pegar os dados do treino
         $treinosModel = new TreinoModel();
 
         echo '<pre>';
