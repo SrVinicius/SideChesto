@@ -13,6 +13,7 @@
     <div class="tab-content">
         <div id="sobre" class="tab-pane fade show active">
             <h2 class="mt-4">Ficha de treinos</h2>
+            // selecionar todos os treinos
             <?php 
                 $db = db_connect();
                 $sql = "SELECT * FROM TREINOS"; 
