@@ -1,0 +1,24 @@
+CRITICAL - 2023-05-20 17:46:18 --> Undefined array key "cliente-id"
+in APPPATH\Views\treinos.php on line 35.
+ 1 APPPATH\Views\treinos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cliente-id"', 'D:\\Xampp\\htdocs\\SideChestO\\app\\Views\\treinos.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Xampp\\htdocs\\SideChestO\\app\\Views\\treinos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('treinos', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('treinos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->treinos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\SideChestO\\public\\index.php')
+CRITICAL - 2023-05-20 17:47:41 --> Undefined array key "cliente-id"
+in APPPATH\Views\treinos.php on line 35.
+ 1 APPPATH\Views\treinos.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "cliente-id"', 'D:\\Xampp\\htdocs\\SideChestO\\app\\Views\\treinos.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('D:\\Xampp\\htdocs\\SideChestO\\app\\Views\\treinos.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('treinos', [], true)
+ 5 APPPATH\Controllers\Home.php(21): view('treinos')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->treinos()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\SideChestO\\public\\index.php')
