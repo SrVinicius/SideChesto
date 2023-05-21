@@ -9,10 +9,7 @@ Class Treinos extends Controller {
         // pegar os dados do treino
         $treinosModel = new TreinoModel();
 
-        echo '<pre>';
-
         $treinos = $treinosModel->findAll();
 
-        print_r($treinos);
     }
 } 

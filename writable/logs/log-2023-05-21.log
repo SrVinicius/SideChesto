@@ -1,0 +1,92 @@
+ERROR - 2023-05-21 17:40:14 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\Xampp\htdocs\SideChestO\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\Xampp\htdocs\SideChestO\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'sidechesto', 3306, '', 0)
+#1 D:\Xampp\htdocs\SideChestO\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Xampp\htdocs\SideChestO\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Xampp\htdocs\SideChestO\app\Views\treinos.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM T...')
+#4 D:\Xampp\htdocs\SideChestO\system\View\View.php(213): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\SideChestO\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\Xampp\htdocs\SideChestO\system\Common.php(1184): CodeIgniter\View\View->render('treinos', Array, true)
+#7 D:\Xampp\htdocs\SideChestO\app\Controllers\Home.php(21): view('treinos')
+#8 D:\Xampp\htdocs\SideChestO\system\CodeIgniter.php(934): App\Controllers\Home->treinos()
+#9 D:\Xampp\htdocs\SideChestO\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\Xampp\htdocs\SideChestO\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Xampp\htdocs\SideChestO\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\Xampp\htdocs\SideChestO\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\Xampp\htdocs\SideChestO\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Xampp\htdocs\SideChestO\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Xampp\htdocs\SideChestO\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Xampp\htdocs\SideChestO\app\Views\treinos.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM T...')
+#3 D:\Xampp\htdocs\SideChestO\system\View\View.php(213): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\SideChestO\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\Xampp\htdocs\SideChestO\system\Common.php(1184): CodeIgniter\View\View->render('treinos', Array, true)
+#6 D:\Xampp\htdocs\SideChestO\app\Controllers\Home.php(21): view('treinos')
+#7 D:\Xampp\htdocs\SideChestO\system\CodeIgniter.php(934): App\Controllers\Home->treinos()
+#8 D:\Xampp\htdocs\SideChestO\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\Xampp\htdocs\SideChestO\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Xampp\htdocs\SideChestO\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Xampp\htdocs\SideChestO\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-21 17:40:14 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Views\treinos.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM TREINOS')
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Xampp\\htdocs\\SideChestO\\app\\Views\\treinos.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('treinos', [], true)
+ 6 APPPATH\Controllers\Home.php(21): view('treinos')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->treinos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\SideChestO\\public\\index.php')
+ERROR - 2023-05-21 17:40:18 --> Error connecting to the database: mysqli_sql_exception: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\Xampp\htdocs\SideChestO\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\Xampp\htdocs\SideChestO\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'sidechesto', 3306, '', 0)
+#1 D:\Xampp\htdocs\SideChestO\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\Xampp\htdocs\SideChestO\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\Xampp\htdocs\SideChestO\app\Views\treinos.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM T...')
+#4 D:\Xampp\htdocs\SideChestO\system\View\View.php(213): include('D:\\Xampp\\htdocs...')
+#5 D:\Xampp\htdocs\SideChestO\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#6 D:\Xampp\htdocs\SideChestO\system\Common.php(1184): CodeIgniter\View\View->render('treinos', Array, true)
+#7 D:\Xampp\htdocs\SideChestO\app\Controllers\Home.php(21): view('treinos')
+#8 D:\Xampp\htdocs\SideChestO\system\CodeIgniter.php(934): App\Controllers\Home->treinos()
+#9 D:\Xampp\htdocs\SideChestO\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#10 D:\Xampp\htdocs\SideChestO\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Xampp\htdocs\SideChestO\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 D:\Xampp\htdocs\SideChestO\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#13 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente in D:\Xampp\htdocs\SideChestO\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\Xampp\htdocs\SideChestO\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\Xampp\htdocs\SideChestO\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\Xampp\htdocs\SideChestO\app\Views\treinos.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM T...')
+#3 D:\Xampp\htdocs\SideChestO\system\View\View.php(213): include('D:\\Xampp\\htdocs...')
+#4 D:\Xampp\htdocs\SideChestO\system\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\Xampp\htdocs\SideChestO\system\Common.php(1184): CodeIgniter\View\View->render('treinos', Array, true)
+#6 D:\Xampp\htdocs\SideChestO\app\Controllers\Home.php(21): view('treinos')
+#7 D:\Xampp\htdocs\SideChestO\system\CodeIgniter.php(934): App\Controllers\Home->treinos()
+#8 D:\Xampp\htdocs\SideChestO\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 D:\Xampp\htdocs\SideChestO\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Xampp\htdocs\SideChestO\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\Xampp\htdocs\SideChestO\system\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2023-05-21 17:40:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 APPPATH\Views\treinos.php(15): CodeIgniter\Database\BaseConnection->query('SELECT * FROM TREINOS')
+ 3 SYSTEMPATH\View\View.php(213): include('D:\\Xampp\\htdocs\\SideChestO\\app\\Views\\treinos.php')
+ 4 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('treinos', [], true)
+ 6 APPPATH\Controllers\Home.php(21): view('treinos')
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->treinos()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('D:\\Xampp\\htdocs\\SideChestO\\public\\index.php')
