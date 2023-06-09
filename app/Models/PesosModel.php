@@ -7,8 +7,6 @@ class PesosModel extends Model{
     protected $primaryKey = 'id';
 
     function PesoPorCliente ($id){
-        // select do tipo de treino por id do cliente
-        // cada cliente pode ter mais de um tipo de treino
         return db_connect()->query("
             SELECT 
                 * 

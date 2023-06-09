@@ -7,8 +7,6 @@ class TreinoModel extends Model{
     protected $primaryKey = 'id';
 
     function TreinoPorCliente ($id){
-        // select do tipo de treino por id do cliente
-        // cada cliente pode ter mais de um tipo de treino
         return db_connect()->query("
             SELECT 
                 TIPO_TREINO 

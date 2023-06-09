@@ -10,6 +10,5 @@ Class Treinos extends Controller {
         $treinosModel = new TreinoModel();
 
         $treinos = $treinosModel->findAll();
-
     }
 } 
