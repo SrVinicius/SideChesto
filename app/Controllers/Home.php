@@ -4,6 +4,7 @@ namespace App\Controllers;
 
 class Home extends BaseController
 {
+    // as views estao aqui
     public function index()
     {
         return view('homepage');
