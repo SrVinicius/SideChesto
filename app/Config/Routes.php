@@ -32,7 +32,6 @@ $routes->set404Override();
 $routes->get('/', 'Home::index');
 $routes->get('sobre', 'Home::sobre');
 $routes->get('contato', 'Home::contato');
-//$routes->get('treinos', 'Treinos::FindTreinos');
 $routes->match(['get', 'post'], 'treinos', 'Treinos::FindTreinos');
 $routes->get('pesos', 'Home::pesos');
 
