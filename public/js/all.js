@@ -9,7 +9,6 @@ $("form").submit(function (e) {
             type: "POST",
             url: form.attr('action'),
             enctype: 'multipart/form-data',
-            //data: $(this).serialize(),
             data: new FormData(this),
             contentType: false,
             cache: false,
@@ -18,7 +17,6 @@ $("form").submit(function (e) {
                 Carregamento();
             },
             success: function (data) {
-                // add logica
             },
             error: function (jqXHR, textStatus, errorThrown) {
                 Swal.fire({
