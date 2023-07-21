@@ -1,4 +1,5 @@
 $("form").submit(function (e) {
+    //teste js
     e.preventDefault();
     var form = $(this);
     var nome = $(this).attr("name")
