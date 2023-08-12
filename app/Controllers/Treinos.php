@@ -9,7 +9,7 @@ Class Treinos extends Controller {
         $builder = $db->table('treinos');
 
         $treinos = $builder->get();
-        var_dump($treinos);
-        die();
+        // var_dump($treinos);
+        // die();
     }
 } 
